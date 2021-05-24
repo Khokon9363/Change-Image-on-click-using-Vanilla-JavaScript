@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Change Image on click using Vanilla JavaScript</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div>
+		<img id="pic" src="img/1.png" width="400px">
+	</div>
+
+	<div>
+		<button id="btn1" onclick="change1()"></button>
+		<button id="btn2" onclick="change2()"></button>
+		<button  id="btn3" onclick="change3()"></button>
+		<button id="btn4" onclick="change4()"></button>
+		<button  id="btn5" onclick="change5()"></button>
+	</div>
+
+	<script type="text/javascript">
+        document.addEventListener("contextmenu", function(e){
+            e.preventDefault();
+        }, false);
+    </script>
+	<script src="js/script.js"></script>
+</body>
+</html>
